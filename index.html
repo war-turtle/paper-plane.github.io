@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>paper plane</title>
+    <style media="screen">
+      *{
+        margin:0;
+        padding:0;
+        overflow: hidden;
+      }
+      body{
+        background-image: linear-gradient(
+          #0b7ca8 88%,#19891e 88%
+        );
+      }
+      @media only screen and (max-width:1021px){
+        body{
+          background-image: linear-gradient(
+            #0b7ca8 50%,#19891e 50%
+          );
+        }
+      }
+      svg{
+        width:100%;
+        height: 100vh;
+      }
+      .cls-1 {
+        fill: #0b7ca8;
+      }
+
+      .cls-2 {
+        fill: #19891e;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+      .cls-7{
+        fill:#8eb9a8;
+        animation: change 10s linear infinite;
+      }
+      @keyframes change{
+        0%,100%{
+          fill:#c2024f;
+        }
+        20%{
+          fill:#04bbbf;
+        }
+        40%{
+            fill:#d2d945;
+        }
+        60%{
+            fill:#ff594f;
+        }
+        80%{
+            fill:#fcb13f;
+        }
+      }
+      .cls-4 {
+        fill: #155632;
+      }
+
+      .cls-5 {
+        fill: #4c4003;
+      }
+
+      .cls-6 {
+        fill: #d3e5ea;
+      }
+
+      .cls-7, .cls-8 {
+        stroke: #000201;
+      }
+
+      .cls-7, .cls-8 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-8{
+        fill: none;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="top"></div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 768">
+      <title>kartik</title>
+      <g id="Layer_1" data-name="Layer 1">
+        <g id="background">
+          <path class="cls-1" d="M1366,768H0V0H1366Z" transform="translate(0 0)"/>
+        </g>
+        <g id="ground">
+          <path class="cls-2" d="M1366,768H0V683c83.31-59.73,340.22-227.7,707-222,336.35,5.22,572.57,153.5,659,214" transform="translate(0 0)"/>
+        </g>
+        <g id="tree">
+          <path class="cls-3" d="M143.85,565" transform="translate(0 0)"/>
+          <path class="cls-4" d="M108.58,548s24.82-5.23,24.82-14.37c0,0-9.8-.66-9.8-7.84,0,0,9.8,1.31,19.6-14.37,0,0-10.45,4.57-7.84-5.88,0,0,18.94-14.37,17.64-21.56,0,0,6.53,21.56,13.72,19.6,0,0-13.72,24.82,17.63,26.78,0,0-28.09,0-6.53,10.45,0,0,15,15.68,19.6,11.11,0,0-28.74,16.33-32.66,11.11h-19.6S107.92,559.78,108.58,548Z" transform="translate(0 0)"/>
+          <polygon class="cls-5" points="145.16 562.39 147.12 601.59 139.28 613.35 150.38 608.12 156.92 614 158.88 606.81 169.33 609.43 162.14 602.89 160.18 562.39 145.16 562.39"/>
+        </g>
+        <g id="cloud">
+          <path class="cls-6" d="M124.19,241.06a38.42,38.42,0,0,0-23.85-8.25,39.13,39.13,0,0,0-38.92,38.34A58.28,58.28,0,0,0,24,325.72c0,29.51,21.69,53.9,49.83,57.74V384h199.4v-.09c27.8-1.64,49.83-25,49.83-53.46,0-27.51-20.5-50.17-46.89-53.21.11-1.67.17-3.37.17-5.07,0-42.62-35.56-77.17-79.43-77.17-32.47,0-60.39,18.93-72.72,46.06" transform="translate(0 0)"/>
+          <path class="cls-6" d="M1039.16,317.82a29.9,29.9,0,0,0-18.56-6.41,30.44,30.44,0,0,0-30.27,29.82,45.44,45.44,0,0,0,9.67,87.35V429h155.07v-.07a41.7,41.7,0,0,0,2.29-83c.09-1.3.14-2.62.14-4,0-33.15-27.67-60-61.79-60-25.25,0-47,14.72-56.55,35.82" transform="translate(0 0)"/>
+          <path class="cls-6" d="M537.89,97.07a30.05,30.05,0,0,0-18.67-6.46,30.64,30.64,0,0,0-30.48,30,45.76,45.76,0,0,0,9.74,88V209H654.6v-.07a42,42,0,0,0,2.31-83.53c.08-1.31.13-2.64.13-4,0-33.35-27.85-60.4-62.2-60.4a62.31,62.31,0,0,0-57,36.07" transform="translate(0 0)"/>
+          <path class="cls-6" d="M1115.42,30a25,25,0,0,0-15.52-5.37,25.47,25.47,0,0,0-25.33,25,38,38,0,0,0,8.09,73.09V123h129.76v-.06a34.89,34.89,0,0,0,1.91-69.42c.07-1.08.11-2.19.11-3.3,0-27.74-23.14-50.22-51.69-50.22a51.8,51.8,0,0,0-47.33,30" transform="translate(0 0)"/>
+        </g>
+        <g id="plane">
+          <polygon class="cls-7" points="582 453 597 427 583 396 476 406 517 424 518 459 550 436 582 453"/>
+          <polygon class="cls-7" points="519 455 526 423 582 397 536 431 519 455"/>
+          <line class="cls-8" x1="550.01" y1="436" x2="536.01" y2="431"/>
+        </g>
+        <g id="tree-2" data-name="tree">
+          <path class="cls-3" d="M770.81,435" transform="translate(0 0)"/>
+          <path class="cls-4" d="M735.54,418s24.82-5.23,24.82-14.37c0,0-9.8-.66-9.8-7.84,0,0,9.8,1.31,19.6-14.37,0,0-10.45,4.57-7.84-5.88,0,0,18.94-14.37,17.64-21.56,0,0,6.53,21.56,13.72,19.6,0,0-13.72,24.82,17.63,26.78,0,0-28.09,0-6.53,10.45,0,0,15,15.68,19.6,11.11,0,0-28.74,16.33-32.66,11.11h-19.6S734.88,429.76,735.54,418Z" transform="translate(0 0)"/>
+          <polygon class="cls-5" points="772.12 432.37 774.08 471.57 766.24 483.33 777.34 478.1 783.88 483.98 785.84 476.79 796.29 479.41 789.1 472.87 787.14 432.37 772.12 432.37"/>
+        </g>
+      </g>
+    </svg>
+    <div class="bottom"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <script>
+      $(function(){
+        var i = 100;
+        var j = -690;
+        var time = new TimelineMax({});
+
+        time.fromTo($('#cloud>path'),10,{xPercent:function(){
+          i += 10;
+          return i+"";
+        },scale:0.3,autoAlpha:0,repeat:-1,ease: Power0.easeIn},{xPercent:function(){
+          j -= 10;
+          return j+"";
+        },scale:1.5,autoAlpha:1,repeat:-1,ease: Power0.easeIn});
+
+        TweenMax.to($('#plane'),1,{skewX:30,skewY:-30,transformOrigin:"50% 50%",xPercent:"+=20",yPercent:"+10",yoyo:true,repeat:-1,repeatDelay:1,ease:Power0.easeNone});
+
+        TweenMax.fromTo($('#tree'),2,{scale:0,transformOrigin:"100% 100%"},{scale:4,autoAlpha:0,repeat:-1,transformOrigin:"0% 0%",ease:Power1.easeIn});
+
+        TweenMax.fromTo($('#tree-2'),4,{scale:0,transformOrigin:"100% 100%"},{scale:6,autoAlpha:0,repeat:-1,transformOrigin:"0% 0%",ease:Power1.easeIn});
+
+      });
+    </script>
+  </body>
+</html>
